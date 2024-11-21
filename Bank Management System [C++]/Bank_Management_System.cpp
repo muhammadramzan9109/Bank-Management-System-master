@@ -1,4 +1,4 @@
-//Banking Record System , C++ Project by Abhisht. 
+//Banking Record System , C++ Project designed by muhammadramzan9109. 
 #include <iostream>
 
 #include <fstream>
@@ -253,12 +253,12 @@ int main() {
             break;
 
         case '8':
-            cout << "\n\n\tThanks for using Bank Record System.\n\n\tFor more cool stuff, visit https//github.com/imabhisht";
+            cout << "\n\n\tThanks for using Bank Record System.\n\n\tFor more cool stuff, visit https//github.com/muhammadramzan9109";
             cout << "\n\n\n\n\n\tDo you want to visit my Website [Y/N]: ";
             cin >> my_url;
             my_url = toupper(my_url);
             if (my_url == 'Y') {
-                system("start https://github.com/imabhisht");
+                system("start https://github.com/muhammadramzan9109");
             }
             break;
         default:
@@ -394,5 +394,5 @@ void Account_Modification(unsigned long long n) {
 
 void Credit() {
     system_clear();
-    cout << "\n\nBanking Record System Project by Abhisht Chouhan." << "\nWritten in C++.";
+    cout << "\n\nBanking Record System Project by muhammadramzan9109." << "\nWritten in C++.";
 }
